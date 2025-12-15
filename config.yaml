@@ -1,0 +1,31 @@
+linkedin:
+  email: ""  # Set via environment variable LINKEDIN_EMAIL
+  password: ""  # Set via environment variable LINKEDIN_PASSWORD
+  session_path: "./sessions"
+  base_url: "https://www.linkedin.com"
+
+stealth:
+  enable_mouse_movement: true
+  enable_typing_simulation: true
+  enable_random_scrolling: true
+  enable_hovering: true
+  min_action_delay: 2s
+  max_action_delay: 5s
+  business_hours_only: true
+  business_hours_start: 9   # 9 AM
+  business_hours_end: 17    # 5 PM
+
+rate_limits:
+  max_connections_per_day: 20
+  max_messages_per_day: 15
+  max_searches_per_hour: 5
+  cooldown_period: 30m
+
+storage:
+  database_path: "./data/automation.db"
+  backup_path: "./data/backups"
+
+logging:
+  level: "info"
+  format: "json"
+  output_path: "./logs/automation.log"
