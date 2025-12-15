@@ -434,15 +434,6 @@ logging:
   level: "debug"
 ```
 
-## 🤝 Contributing
-
-This is an educational project. Contributions that enhance the technical demonstration are welcome:
-
-1. Fork the repository
-2. Create a feature branch
-3. Implement your changes
-4. Add tests if applicable
-5. Submit a pull request
 
 ## 📄 License
 
@@ -453,21 +444,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - [Rod](https://github.com/go-rod/rod) - Excellent browser automation library
 - [Rod Stealth](https://github.com/go-rod/stealth) - Anti-detection evasion techniques
 
-## ⚖️ Legal & Ethical Notice
-
-**IMPORTANT**: This tool is provided for educational purposes to demonstrate:
-- Browser automation techniques
-- Anti-detection mechanisms
-- Clean Go architecture patterns
-
 **You are solely responsible** for how you use this software. The author assumes no liability for misuse, account bans, legal issues, or any other consequences.
-
-**Recommended Use**:
-- Study the code to learn automation techniques
-- Use as a reference for building legitimate automation tools
-- Create demonstration videos for educational content
-- DO NOT use on real LinkedIn accounts
 
 ---
 
-**Built with ❤️ for educational purposes only**
