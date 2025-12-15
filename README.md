@@ -285,6 +285,19 @@ logging:
 ./linkedin-automation -config=custom-config.yaml
 ```
 
+### Building the Application
+
+```bash
+# Using Make (recommended)
+make build
+
+# Or using Go directly
+go build -o linkedin-automation ./cmd/linkedin-automation
+
+# Build for multiple platforms
+make build-all
+```
+
 ### Example Workflow
 
 The main.go file includes an example workflow that:
